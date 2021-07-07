@@ -85,6 +85,7 @@ header .navbar .nav-links .active {
   text-transform: uppercase;
   display: inline-block;
   padding: 10px 20px;
+  border-radius: 2px;
 }
 
 .hero-image img {
@@ -151,5 +152,59 @@ footer {
   padding: 2%;
   text-transform: uppercase;
   text-align: center;
+}
+
+.login {
+  margin-top: 10%;
+  text-align: center;
+}
+
+.login h3 {
+  font-size: 25px;
+  padding-bottom: 2%;
+}
+
+.login div {
+  max-width: 600px;
+  margin: auto;
+}
+
+.login div form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.login div form input {
+  background-color: #1c1e23;
+  color: #fcfcfc;
+  font-size: 16px;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: none;
+}
+
+.login div form input[type="submit"] {
+  background-color: #10c579;
+  color: #0f1012;
+}
+
+.login a {
+  text-decoration: none;
+}
+
+.login a p {
+  text-align: center;
+  color: #10c579;
+}
+
+.about h3 {
+  color: #fcfcfc;
+  font-size: 25px;
+  padding-bottom: 1%;
 }
 /*# sourceMappingURL=style.css.map */

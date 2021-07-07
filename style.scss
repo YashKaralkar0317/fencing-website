@@ -72,6 +72,7 @@ header {
             text-transform: uppercase;
             display: inline-block;
             padding: 10px 20px;
+            border-radius: 2px;
         }
     }
 }
@@ -135,4 +136,49 @@ footer {
     padding: 2%;
     text-transform: uppercase;
     text-align: center;
+}
+
+.login {
+    margin-top: 10%;
+    text-align: center;
+    h3 {
+        font-size: 25px;
+        padding-bottom: 2%;
+    }
+    div {
+        max-width: 600px;
+        margin: auto;
+        form {
+            display: flex;
+            flex-direction: column;
+            input {
+                background-color: $background-secondary;
+                color: $foreground;
+                font-size: 16px;
+                padding: 15px;
+                margin-bottom: 20px;
+                border: none;
+                // outline: none;
+            }
+            input[type="submit"] {
+                background-color: $accent-primary;
+                color: $background-primary;
+            }
+        }
+    }
+    a {
+        text-decoration: none;
+        p {
+            text-align: center;
+            color: $accent-primary;
+        }
+    }
+}
+
+.about{
+    h3 {
+        color: $foreground;
+        font-size: 25px;
+        padding-bottom: 1%;
+    }
 }
