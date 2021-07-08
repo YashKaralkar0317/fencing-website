@@ -175,10 +175,64 @@ footer {
     }
 }
 
-.about{
+.about {
     h3 {
         color: $foreground;
         font-size: 25px;
         padding-bottom: 1%;
+    }
+}
+
+.shop {
+    h3{
+        color: $foreground;
+        font-size: 25px;
+        padding-bottom: 1%;
+    }
+    .products {
+        display: flex;
+        justify-content: space-between;
+        .product {
+            width: 32%;
+            img {
+                width: 100%;
+            }
+            .product-desc {
+                display: flex;
+                justify-content: space-between;
+                padding-top: 5px;
+                span {
+                    color: $accent-primary;
+                }
+                h5 {
+                    font-size: 18px;
+                }
+            }
+            .product-buttons {
+                display: flex;
+                justify-content: space-between;
+                padding-top: 10px;
+                margin-bottom: 15%;
+                .product-button {
+                    width: 48%;
+                    button{
+                        width: 100%;
+                        // background-color: $accent-primary;
+                        color: $background-primary;
+                        font-size: 15px;
+                        font-weight: 700;
+                        padding: 15px;
+                        border: none;
+                        cursor: pointer;
+                    }
+                    .primary{
+                        background-color: $accent-primary;
+                    }
+                    .secondary{
+                        background-color: $accent-secondary;
+                    }
+                }
+            }
+        }
     }
 }

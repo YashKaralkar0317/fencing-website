@@ -207,4 +207,78 @@ footer {
   font-size: 25px;
   padding-bottom: 1%;
 }
+
+.shop h3 {
+  color: #fcfcfc;
+  font-size: 25px;
+  padding-bottom: 1%;
+}
+
+.shop .products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.shop .products .product {
+  width: 32%;
+}
+
+.shop .products .product img {
+  width: 100%;
+}
+
+.shop .products .product .product-desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 5px;
+}
+
+.shop .products .product .product-desc span {
+  color: #10c579;
+}
+
+.shop .products .product .product-desc h5 {
+  font-size: 18px;
+}
+
+.shop .products .product .product-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 10px;
+  margin-bottom: 15%;
+}
+
+.shop .products .product .product-buttons .product-button {
+  width: 48%;
+}
+
+.shop .products .product .product-buttons .product-button button {
+  width: 100%;
+  color: #0f1012;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.shop .products .product .product-buttons .product-button .primary {
+  background-color: #10c579;
+}
+
+.shop .products .product .product-buttons .product-button .secondary {
+  background-color: #11a365;
+}
 /*# sourceMappingURL=style.css.map */
