@@ -281,4 +281,133 @@ footer {
 .shop .products .product .product-buttons .product-button .secondary {
   background-color: #11a365;
 }
+
+.product-details h3 {
+  color: #fcfcfc;
+  font-size: 25px;
+  padding-bottom: 1%;
+}
+
+.product-details .product-detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.product-details .product-detail .product-detail-image {
+  width: 50%;
+}
+
+.product-details .product-detail .product-detail-image img {
+  width: 100%;
+  padding: 20px;
+}
+
+.product-details .product-detail .product-detail-desc {
+  width: 50%;
+  padding: 20px;
+}
+
+.product-details .product-detail .product-detail-desc h5 {
+  font-size: 25px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+.product-details .product-detail .product-detail-desc h6 {
+  font-size: 30px;
+  color: #10c579;
+  padding-bottom: 10px;
+}
+
+.product-details .product-detail .product-detail-desc p {
+  width: 80%;
+  padding-bottom: 10px;
+}
+
+.product-details .product-detail .product-detail-desc .product-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 10px;
+  margin-bottom: 15%;
+  width: 70%;
+}
+
+.product-details .product-detail .product-detail-desc .product-buttons .product-button {
+  width: 48%;
+}
+
+.product-details .product-detail .product-detail-desc .product-buttons .product-button button {
+  width: 100%;
+  color: #0f1012;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.product-details .product-detail .product-detail-desc .product-buttons .product-button .primary {
+  background-color: #10c579;
+}
+
+.product-details .product-detail .product-detail-desc .product-buttons .product-button .secondary {
+  background-color: #11a365;
+}
+
+.product-details .product-detail .product-quantity {
+  padding-bottom: 10px;
+}
+
+.product-details .product-detail .product-quantity button,
+.product-details .product-detail .product-quantity input {
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  text-align: center;
+  background-color: #1c1e23;
+  color: #fcfcfc;
+}
+
+.product-details .product-detail .product-quantity button {
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+}
+
+.product-details .product-detail .product-quantity input {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+}
+
+.cart h3 {
+  color: #fcfcfc;
+  font-size: 25px;
+  padding-bottom: 15%;
+}
+
+.cart div {
+  text-align: center;
+}
+
+.cart div p {
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+}
+
+.cart div a {
+  text-decoration: none;
+  color: #0f1012;
+  background-color: #10c579;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 2px;
+}
 /*# sourceMappingURL=style.css.map */

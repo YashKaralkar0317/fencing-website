@@ -184,7 +184,7 @@ footer {
 }
 
 .shop {
-    h3{
+    h3 {
         color: $foreground;
         font-size: 25px;
         padding-bottom: 1%;
@@ -215,7 +215,7 @@ footer {
                 margin-bottom: 15%;
                 .product-button {
                     width: 48%;
-                    button{
+                    button {
                         width: 100%;
                         // background-color: $accent-primary;
                         color: $background-primary;
@@ -225,14 +225,123 @@ footer {
                         border: none;
                         cursor: pointer;
                     }
-                    .primary{
+                    .primary {
                         background-color: $accent-primary;
                     }
-                    .secondary{
+                    .secondary {
                         background-color: $accent-secondary;
                     }
                 }
             }
+        }
+    }
+}
+
+.product-details {
+    h3 {
+        color: $foreground;
+        font-size: 25px;
+        padding-bottom: 1%;
+    }
+    .product-detail {
+        display: flex;
+        .product-detail-image {
+            width: 50%;
+            img {
+                width: 100%;
+                padding: 20px;
+            }
+        }
+        .product-detail-desc {
+            width: 50%;
+            padding: 20px;
+            h5 {
+                font-size: 25px;
+                font-weight: 400;
+                padding-bottom: 10px;
+            }
+            h6 {
+                font-size: 30px;
+                color: $accent-primary;
+                padding-bottom: 10px;
+            }
+            p {
+                width: 80%;
+                padding-bottom: 10px;
+            }
+            .product-buttons {
+                display: flex;
+                justify-content: space-between;
+                padding-top: 10px;
+                margin-bottom: 15%;
+                width: 70%;
+                .product-button {
+                    width: 48%;
+                    button {
+                        width: 100%;
+                        // background-color: $accent-primary;
+                        color: $background-primary;
+                        font-size: 15px;
+                        font-weight: 700;
+                        padding: 15px;
+                        border: none;
+                        cursor: pointer;
+                    }
+                    .primary {
+                        background-color: $accent-primary;
+                    }
+                    .secondary {
+                        background-color: $accent-secondary;
+                    }
+                }
+            }
+        }
+        .product-quantity {
+            padding-bottom: 10px;
+            button,
+            input {
+                font-size: 18px;
+                font-weight: 700;
+                border: none;
+                text-align: center;
+                background-color: $background-secondary;
+                color: $foreground;
+            }
+            button {
+                border-radius: 20px;
+                width: 40px;
+                height: 40px;
+            }
+            input {
+                width: 50px;
+                height: 50px;
+                margin: 5px;
+            }
+        }
+    }
+}
+
+.cart {
+    h3 {
+        color: $foreground;
+        font-size: 25px;
+        padding-bottom: 15%;
+    }
+    div {
+        text-align: center;
+        p {
+            font-size: 18px;
+            text-align: center;
+            padding: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: $background-primary;
+            background-color: $accent-primary;
+            text-transform: uppercase;
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 2px;
         }
     }
 }
