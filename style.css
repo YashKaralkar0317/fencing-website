@@ -149,9 +149,50 @@ header .navbar .nav-links .active {
 }
 
 footer {
-  padding: 2%;
-  text-transform: uppercase;
-  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+  border-top: 3px solid #1c1e23;
+}
+
+footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  padding: 40px;
+}
+
+footer div h2, footer div h3 {
+  padding-bottom: 8px;
+  color: #10c579;
+}
+
+footer div p {
+  padding-bottom: 8px;
+}
+
+footer div ul li {
+  list-style: none;
+  padding-bottom: 8px;
+}
+
+footer div ul li a {
+  text-decoration: none;
+  color: #fcfcfc;
+}
+
+footer .imp-links {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 .login {
@@ -179,13 +220,14 @@ footer {
           flex-direction: column;
 }
 
-.login div form input {
+.login div form input, .login div form textarea {
   background-color: #1c1e23;
   color: #fcfcfc;
   font-size: 16px;
   padding: 15px;
   margin-bottom: 20px;
   border: none;
+  font-family: "Noto Sans", sans-serif;
 }
 
 .login div form input[type="submit"] {
